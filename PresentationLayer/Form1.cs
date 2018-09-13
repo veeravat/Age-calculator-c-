@@ -16,6 +16,7 @@ namespace PresentationLayer
         public Form1()
         {
             InitializeComponent();
+            ShowAge(monthCalendar1.SelectionRange.Start);
         }
 
         private void button1_Click(object sender, EventArgs e)
